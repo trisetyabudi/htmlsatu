@@ -6,68 +6,90 @@
     <title>html Dasar</title>
 </head>
 <body>
-    <img src="img/logo.png" alt="logo">
 
-    <!-- list menu -->
-    <ul>
-            <li>Tentang Kami</li>
-            <li>Kontak</li>
-            <li>Program Keahlian</li>
-            <li>Alamat</li>
-    </ul>
+    <div>
+        <nav>
+            <img src="img/logo.png" alt="logo">
 
-    <!-- judul -->
-    <h1>Web Sekolah RPL</h1>
-    <p>
-        Di era digital seperti sekarang, kemampuan membuat dan mengelola situs web menjadi keterampilan yang sangat berharga. Pembelajaran web adalah proses memahami dan menguasai berbagai teknologi yang digunakan dalam pembangunan sebuah situs, mulai dari struktur dasar menggunakan HTML, tampilan visual dengan CSS, hingga logika dan interaktivitas melalui JavaScript
-    </p>
+            <!-- list menu -->
+            <ul>
+                    <li>Tentang Kami</li>
+                    <li><a href="pages/kontak.html">Kontak</a></li>
+                    <li>Program Keahlian</li>
+                    <li>Alamat</li>
+            </ul>          
 
-    <table border="1px">
-            <thead>
-                    <tr>
-                        <th>Jam</th>
-                        <th colspan="2">Pelajaran</th>
-                        
-                    </tr>
-            </thead>
+        </nav>
+        
+        <section>
+                <!-- judul -->
+            <h1>Web Sekolah RPL</h1>
+            <p>
+                Di era digital seperti sekarang, kemampuan membuat dan mengelola situs web menjadi keterampilan yang sangat berharga. Pembelajaran web adalah proses memahami dan menguasai berbagai teknologi yang digunakan dalam pembangunan sebuah situs, mulai dari struktur dasar menggunakan HTML, tampilan visual dengan CSS, hingga logika dan interaktivitas melalui JavaScript
+            </p>
 
-            <tbody>
-                    <tr>
-                        <td>1.</td>
-                        <td rowspan="3">P Web</td>
-                        <td rowspan="2">PPLG</td>
-                    </tr>
+            <table border="1px">
+                    <thead>
+                            <tr>
+                                <th>Jam</th>
+                                <th colspan="2">Pelajaran</th>
+                                
+                            </tr>
+                    </thead>
 
-                    <tr>
-                        <td>2.</td>                    
-                    </tr>
+                    <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td rowspan="3">P Web</td>
+                                <td rowspan="2">PPLG</td>
+                            </tr>
 
-                    <tr>
-                        <td>3.</td>
-                        <td>B.Ind</td>
-                    </tr>
-            </tbody>
+                            <tr>
+                                <td>2.</td>                    
+                            </tr>
 
-    </table>
-    <form action=""method="">
-        <label for="">Nama: </label>
-        <input type="text" placeholder="Nama Anda">
-        <input type="submit">
+                            <tr>
+                                <td>3.</td>
+                                <td>B.Ind</td>
+                            </tr>
+                    </tbody>
 
-        <select name="" id="">
-           <option value="1">RPL</option>
-           <option value="2">DKV</option>
-           <option value="3">Akuntansi</option>
-           <option value="4">MP</option>
-           <option value="5">BD</option>
-           <option value="6">LPB</option>
+            </table>
+
+        </section>
+        <section>
+            <video width="320"  height="250" controls src="media/videolucu.mp4"  >
+                
+
+                    
+          
+        </section>
+
+        <footer>
+                <form action=""method="">
+                    <label for="">Nama: </label>
+                    <input type="text" placeholder="Nama Anda">
+                    <input type="submit">
+
+                    <select name="" id="">
+                        <option value="1">RPL</option>
+                        <option value="2">DKV</option>
+                        <option value="3">Akuntansi</option>
+                        <option value="4">MP</option>
+                        <option value="5">BD</option>
+                        <option value="6">LPB</option>
+
+                    </select>
 
 
-        </select>
+                </form> 
 
 
-    </form>   
-
+        </footer>
+    
+      
+    </div>
+    
 
     
 </body>
